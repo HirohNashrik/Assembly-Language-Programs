@@ -1,0 +1,10 @@
+# Assembler debug file for MCU 8051 IDE v1.4.9
+# Used assembler: MCU 8051 IDE
+# Date: 06/28/2023
+8F2B2AAA7E91783522E4B6ACAA2A2A31 "MOVdata.asm" 
+0 2 0 122 69
+0 3 2 123 103
+0 4 4 124 239
+0 5 6 138 53
+0 6 8 139 54
+0 7 10 140 55
