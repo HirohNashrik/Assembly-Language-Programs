@@ -1,0 +1,15 @@
+# Assembler debug file for MCU 8051 IDE v1.4.9
+# Used assembler: MCU 8051 IDE
+# Date: 07/04/2023
+D06B858DB4CB40258D0EC940133841DC "Decimal to Hexadecimal.asm" 
+0 2 0 229 64
+0 3 2 84 240
+0 4 4 196
+0 5 5 117 240 10
+0 6 8 164
+0 7 9 248
+0 8 10 229 64
+0 9 12 84 15
+0 10 14 40
+0 11 15 245 65
+0 12 17 128 254

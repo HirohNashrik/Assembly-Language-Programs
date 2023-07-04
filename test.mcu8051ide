@@ -250,7 +250,7 @@
 		<calculator
 			radix="Hex"
 			angle_unit="rad"
-			display0="10"
+			display0="31"
 			display1=""
 			display2=""
 			memory0=""
@@ -262,10 +262,10 @@
 		/>
 	</general>
 	<other_options><![CDATA[]]></other_options>
-	<compiler_options><![CDATA[{_title 0 _list 0 _print 0 _nomod 0 max_ihex_rec_length 16 _object 0 _pagelength 0 QUIET 0 _symbols 0 CREATE_SIM_FILE 1 CREATE_BIN_FILE 1 _pagewidth 0 optim_ena 0 _date 0 _paging 0 WARNING_LEVEL 0} 0 {--verbose 1 -i {} custom {} --columns 0 --omf-51 0} {adf 1} {-L 1 -M 0 custom {} -n 0 -P 0 -A 0 -a 0 -r {} -C 0 -c 0 -s 1 -U 0 -u 0 -g MAP -w 0 -cpu 8051 -x 0 -h 0 -quiet 0 -i {} -I 1} {ihex 1 adf 1} {--out-fmt-s19 0 --fdollars-in-identifiers 0 --nogcse 0 --nooverlay 1 --no-peep-comments 0 --no-c-code-in-asm 0 --print-search-dirs 0 --nostdlib 0 --nolabelopt 0 --short-is-8bits 0 --cyclomatic 0 --compile-only 0 --peep-asm 0 --no-reg-params 0 --noinvariant 0 --profile 0 --out-fmt-ihx 0 --noinduction 1 --opt-code-size 0 --nojtbound 0 --no-peep 0 --less-pedantic 0 --no-xinit-opt 0 --xstack 0 --funsigned-char 0 --verbose 1 -S 0 --debug 1 --preprocessonly 0 --opt-code-speed 0 --parms-in-bank1 0 --float-reent 0 -V 1 --c1mode 0 --fverbose-asm 0 --fommit-frame-pointer 0 --xram-movc 0 --main-return 0 --nostdinc 0 --noloopreverse 0 --stack-probe 0 --all-callee-saves 0 --int-long-reent 0 --stack-auto 0 --use-stdout 0} {standard --std-sdcc89 model --model-small stack {} custom {}} {--stack-size {} --code-loc {} --constseg {} --codeseg {} --xram-loc {} --data-loc {} --stack-loc {} --xstack-loc {} --lib-path {}} {--disable-warning {} -L {} -l {} -I {}} {-l 1 -A {} custom {} -F hex} {adf 1}]]></compiler_options>
+	<compiler_options><![CDATA[{_title 0 _list 0 _print 0 _nomod 0 max_ihex_rec_length 16 _object 0 _pagelength 0 QUIET 0 _symbols 0 CREATE_SIM_FILE 1 CREATE_BIN_FILE 1 optim_ena 0 _pagewidth 0 WARNING_LEVEL 0 _paging 0 _date 0} 0 {--verbose 1 -i {} --omf-51 0 --columns 0 custom {}} {adf 1} {-L 1 -M 0 custom {} -n 0 -P 0 -A 0 -a 0 -r {} -C 0 -c 0 -s 1 -u 0 -U 0 -w 0 -g MAP -quiet 0 -h 0 -x 0 -cpu 8051 -I 1 -i {}} {ihex 1 adf 1} {--out-fmt-s19 0 --fdollars-in-identifiers 0 --nogcse 0 --nooverlay 1 --no-peep-comments 0 --no-c-code-in-asm 0 --print-search-dirs 0 --nostdlib 0 --peep-asm 0 --nolabelopt 0 --short-is-8bits 0 --cyclomatic 0 --compile-only 0 --profile 0 --noinvariant 0 --no-reg-params 0 --noinduction 1 --out-fmt-ihx 0 --nojtbound 0 --opt-code-size 0 --less-pedantic 0 --no-peep 0 -S 0 --verbose 1 --funsigned-char 0 --xstack 0 --no-xinit-opt 0 --debug 1 --preprocessonly 0 --c1mode 0 -V 1 --float-reent 0 --parms-in-bank1 0 --opt-code-speed 0 --nostdinc 0 --main-return 0 --xram-movc 0 --fommit-frame-pointer 0 --fverbose-asm 0 --int-long-reent 0 --all-callee-saves 0 --stack-probe 0 --noloopreverse 0 --stack-auto 0 --use-stdout 0} {model --model-small standard --std-sdcc89 stack {} custom {}} {--codeseg {} --constseg {} --code-loc {} --stack-size {} --xram-loc {} --lib-path {} --xstack-loc {} --stack-loc {} --data-loc {}} {-l {} -L {} --disable-warning {} -I {}} {-l 1 -A {} -F hex custom {}} {adf 1}]]></compiler_options>
 	<files
-		count="11"
-		current_file="9"
+		count="6"
+		current_file="5"
 		current_file2="-1"
 		pwin_sash="0"
 		selected_view="0"
@@ -346,7 +346,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="SUMOFNNUMBERS.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="7" read_only="0" highlight="0">
+		<file name="SUMOFNNUMBERS.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
 			<actual_line value="1"/>
 			<md5_hash value="5D97B657AC8BA4ADF520DACAC5DB4C51"/>
 			<path><![CDATA[]]></path>
@@ -361,7 +361,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="CUBEOFANUMBER.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
+		<file name="CUBEOFANUMBER.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
 			<actual_line value="14"/>
 			<md5_hash value="102A990FE666A8133D49BBA79A9A2EB3"/>
 			<path><![CDATA[]]></path>
@@ -376,7 +376,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="SQUAREROOT.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="1" read_only="0" highlight="0">
+		<file name="SQUAREROOT.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
 			<actual_line value="18"/>
 			<md5_hash value="9E67848A9C63D15EB0BBBBF4122332BE"/>
 			<path><![CDATA[]]></path>
@@ -391,7 +391,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="ROOTuntitled1.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="2" read_only="0" highlight="0">
+		<file name="ROOTuntitled1.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
 			<actual_line value="1"/>
 			<md5_hash value="CBD3DB4EFEF2258FAA45C69CA43CE4DD"/>
 			<path><![CDATA[]]></path>
@@ -406,7 +406,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="EXTMEMORYADDITION.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="3" read_only="0" highlight="0">
+		<file name="EXTMEMORYADDITION.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
 			<actual_line value="10"/>
 			<md5_hash value="93B6439751CFFDA7EE9CE211457118CA"/>
 			<path><![CDATA[]]></path>
@@ -421,7 +421,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="largestinanarray.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="8" read_only="0" highlight="0">
+		<file name="largestinanarray.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="1" read_only="0" highlight="0">
 			<actual_line value="1"/>
 			<md5_hash value="9102F005015674622B8634C1F225CFFE"/>
 			<path><![CDATA[]]></path>
@@ -451,7 +451,7 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="Sorting.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="4" read_only="0" highlight="0">
+		<file name="Sorting.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
 			<actual_line value="2"/>
 			<md5_hash value="6B5A54912D11B19D14CD0C1F49C8D96D"/>
 			<path><![CDATA[]]></path>
@@ -466,8 +466,8 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="HEXTODECI.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="5" read_only="0" highlight="0">
-			<actual_line value="7"/>
+		<file name="HEXTODECI.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
+			<actual_line value="1"/>
 			<md5_hash value="8C38929EA0DCD898C8DF69534ACF9379"/>
 			<path><![CDATA[]]></path>
 			<bookmarks>
@@ -496,8 +496,8 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="HCFOFTWONUMBERS.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="6" read_only="0" highlight="0">
-			<actual_line value="28"/>
+		<file name="HCFOFTWONUMBERS.asm" active="no" o_bookmark="0" p_bookmark="0" file_index="0" read_only="0" highlight="0">
+			<actual_line value="7"/>
 			<md5_hash value="C7C49B45730B68AF04F5BACC9F8486D7"/>
 			<path><![CDATA[]]></path>
 			<bookmarks>
@@ -511,9 +511,54 @@
 			<notes><![CDATA[]]></notes>
 		</file>
 
-		<file name="Matrix addition.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="9" read_only="0" highlight="0">
+		<file name="Matrix addition.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="2" read_only="0" highlight="0">
 			<actual_line value="25"/>
 			<md5_hash value="6C23C0A9764A9ED7FDA475F5FF0945A4"/>
+			<path><![CDATA[]]></path>
+			<bookmarks>
+				0
+			</bookmarks>
+			<breakpoints>
+				0
+			</breakpoints>
+			<eol value="lf"/>
+			<encoding value="utf-8"/>
+			<notes><![CDATA[]]></notes>
+		</file>
+
+		<file name="HCF of two numbers using external memory.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="3" read_only="0" highlight="0">
+			<actual_line value="2"/>
+			<md5_hash value="0411B1E0637184BF1A8E6DEBB2D9367A"/>
+			<path><![CDATA[]]></path>
+			<bookmarks>
+				0
+			</bookmarks>
+			<breakpoints>
+				0
+			</breakpoints>
+			<eol value="lf"/>
+			<encoding value="utf-8"/>
+			<notes><![CDATA[]]></notes>
+		</file>
+
+		<file name="LCM and HCF of two numbers.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="4" read_only="0" highlight="0">
+			<actual_line value="38"/>
+			<md5_hash value="33117C3FD7B3EA8A19F639C039282178"/>
+			<path><![CDATA[]]></path>
+			<bookmarks>
+				0
+			</bookmarks>
+			<breakpoints>
+				0
+			</breakpoints>
+			<eol value="lf"/>
+			<encoding value="utf-8"/>
+			<notes><![CDATA[]]></notes>
+		</file>
+
+		<file name="Decimal to Hexadecimal.asm" active="yes" o_bookmark="0" p_bookmark="0" file_index="5" read_only="0" highlight="0">
+			<actual_line value="13"/>
+			<md5_hash value="D06B858DB4CB40258D0EC940133841DC"/>
 			<path><![CDATA[]]></path>
 			<bookmarks>
 				0
